@@ -2,5 +2,14 @@
 .holder{
 	display:flex;
 	flex-direction:row;
-	display:h
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	
+}
+.item{
+	height:200px;
+	width:200px;
+	margin:10px;
+	border:2px solid green;
+	background-color:blue;
 }
